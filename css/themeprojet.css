@@ -1,0 +1,21 @@
+*{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.desc{
+    background-color: rgb(186, 192, 161);
+}
+body{
+    background-color: rgb(186, 192, 161);
+}
+.album img{
+    width: 200px;
+    height: 200px;
+    
+}
+.clip video{
+    width: 500px; ;
+}
+

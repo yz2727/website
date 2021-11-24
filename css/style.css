@@ -1,0 +1,150 @@
+
+
+body{
+    background:rgb(243, 219, 188);
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: rgb(3, 0, 0);
+}
+
+
+
+h2 {
+	color :  #f50202;
+}
+
+
+.photo{
+    text-align: right;
+}
+.photo img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    
+    margin-top: -100px;
+}
+
+.presentation a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    color: rgb(4, 5, 0);
+    background-color: #f5f8ee;
+    box-shadow: 0px 0px 10px rgb(235, 230, 230);
+    border-radius: 5px;
+}
+
+.sommaire a:hover{color: crimson;
+    background-color: rgb(243, 219, 188);  
+}
+
+
+
+.contact-txt a:hover{
+    color: crimson;
+}
+.contact-txt a{
+    text-decoration: underline;
+}
+.sommaire a{
+    text-decoration: underline;
+}
+  
+
+.exp{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.exp-logo{
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+.exp-desc{
+    flex: 0 0 80%;
+    margin-left: auto;
+}
+.exp img{
+    width: 100%;
+}
+
+
+.h3gauche{
+    width: 90%;
+}
+
+
+
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.c40{
+    width: 40%;
+    background-color: #004d6d;
+}
+.c10{
+    width: 10%;
+    background-color: #004d6d;
+}
+.c20{
+    width: 20%;
+    background-color: #004d6d;
+}
+.c80{
+    width: 80%;
+    background-color: #004d6d;
+    border-radius: 5px;
+}
+
+.c85{
+    width: 85%;
+    background-color: #004d6d;
+}
+.c95{
+    width: 95%;
+    background-color: #004d6d;
+}
+
+.comp2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.conteneur-barre{
+    flex: 0 0 100%;
+    height: 0.5em;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+
+.interet{
+    flex: 0 1 50%;
+    display: flex;
+    
+    align-items:center;
+    margin-bottom: 20px;
+}
+.interet img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #555;
+}
+
+
